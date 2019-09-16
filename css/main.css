@@ -324,3 +324,7 @@ footer .social-links {
         max-width: 1440px;
     }
 }
+
+.logo {
+    content: url("../images/isotipo.svg");
+}
