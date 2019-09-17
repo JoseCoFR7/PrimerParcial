@@ -324,7 +324,12 @@ footer .social-links {
         max-width: 1440px;
     }
 }
-
+/*imagen de logo-isotipo.svg */
 .logo {
     content: url("../images/isotipo.svg");
+}
+
+/* Cambiando a color rojo 'Contacto' */
+.menu :last-child a{
+color:red;
 }
