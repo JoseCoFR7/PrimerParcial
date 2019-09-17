@@ -74,7 +74,6 @@ p{
 .big-hero p {
     font-size: 0.7em;;
     color: #D7DEE6;
-
 }
 
 /* Social links*/
@@ -329,7 +328,7 @@ footer .social-links {
     content: url("../images/isotipo.svg");
 }
 
-/* Color de  'Contacto' */
+/*Color de  'Contacto' */
 .menu :last-child a{
     color:red;
 }
@@ -339,12 +338,22 @@ ul.social-links li a i{
     font-size: 2em;
     padding: 0 20px;
     color:white;
-    margin-top: 1px
 }
 
 /*Tamaño y color de flecha*/
 i{
     font-size: 3em;
     color:#0AC693;
-    padding: 0 20px;
+    padding: 0 0px;
+    margin-bottom: 50px;
+}
+/*Margenes y padding de social links*/
+ul.social-links{
+    margin-top: 0px;
+    margin-bottom: 0em;
+    padding: 0em;
+}
+/*Padding de parrafo de .bih-hero*/
+.big-hero p {
+    padding:0px;
 }
