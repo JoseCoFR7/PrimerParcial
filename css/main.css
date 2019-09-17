@@ -345,15 +345,15 @@ i{
     font-size: 3em;
     color:#0AC693;
     padding: 0 0px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 /*Margenes y padding de social links*/
 ul.social-links{
-    margin-top: 0px;
-    margin-bottom: 0em;
+    margin-top: -10px;
+    margin-bottom: -40px;
     padding: 0em;
 }
-/*Padding de parrafo de .bih-hero*/
+/*Padding de parrafo de .big-hero*/
 .big-hero p {
     padding:0px;
 }
