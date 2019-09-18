@@ -326,6 +326,7 @@ footer .social-links {
 /*imagen de logo-isotipo.svg */
 .logo {
     content: url("../images/isotipo.svg");
+    transform: scale(.5);
 }
 
 /*Color de  'Contacto' */
