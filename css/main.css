@@ -329,8 +329,8 @@ footer .social-links {
     transform: scale(.5);
 }
 
-/*Color de  'Contacto' */
-.menu :last-child a{
+/*Hover rojo en Menu */
+.menu :hover{
     color:red;
 }
 
@@ -358,3 +358,66 @@ ul.social-links{
 .big-hero p {
     padding:0px;
 }
+
+/*
+.bio-info{
+  display: grid;
+  grid-column-gap: 50px;
+
+}
+.contact{
+    display: grid;
+    grid-column-gap: 50px;
+}
+/*
+.contact{
+display: flex;
+flex-direction: row;
+width: 50%;
+
+}*/
+/*
+.bio-info, .contact {
+    float: left;
+    width: 50%;
+
+  }
+  
+  /* Clear floats after the columns *//*
+  .about:after {
+    content: "";
+    display: table;
+    clear: both;
+  }*/
+  
+
+
+/*
+.about {
+    margin: 15px;
+    background-color: red;
+
+  }
+  
+  .bio-info,.contact {
+    background-color:blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+  }
+  /*
+  .contact {
+    background-color:green;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+    
+    /*flex-basis: 100%;
+    flex: 1;*/
+  }
+
+  
