@@ -29,6 +29,7 @@ body {
 
 .hide-mobile {
     display: none;
+    margin: 5px;
 }
 
 p{
@@ -343,7 +344,7 @@ ul.social-links li a i{
 
 /*Tamaño y color de flecha*/
 i{
-    font-size: 3em;
+    font-size: 4em;
     color:#0AC693;
     padding: 0 0px;
     margin-bottom: 60px;
@@ -358,66 +359,3 @@ ul.social-links{
 .big-hero p {
     padding:0px;
 }
-
-/*
-.bio-info{
-  display: grid;
-  grid-column-gap: 50px;
-
-}
-.contact{
-    display: grid;
-    grid-column-gap: 50px;
-}
-/*
-.contact{
-display: flex;
-flex-direction: row;
-width: 50%;
-
-}*/
-/*
-.bio-info, .contact {
-    float: left;
-    width: 50%;
-
-  }
-  
-  /* Clear floats after the columns *//*
-  .about:after {
-    content: "";
-    display: table;
-    clear: both;
-  }*/
-  
-
-
-/*
-.about {
-    margin: 15px;
-    background-color: red;
-
-  }
-  
-  .bio-info,.contact {
-    background-color:blue;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 50%;
-    justify-content: center;
-  }
-  /*
-  .contact {
-    background-color:green;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 50%;
-    justify-content: center;
-    
-    /*flex-basis: 100%;
-    flex: 1;*/
-  }
-
-  
