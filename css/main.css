@@ -18,29 +18,34 @@ body {
     font-weight: 400;
 }
 
+/*Caja del header */
 .header {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
+/*Quita visualizacion de elemento*/
 .src-only {
     display: none;
 }
-
+/*Quita visualizacion del elemente y agrega margen*/
 .hide-mobile {
     display: none;
     margin: 5px;
 }
 
+/*Tama;o, y paddibg del parrafo */
 p{
     font-size: 1em;
     padding: 1rem;
     line-height: 25px;
 }
-
+/*Dimensiones logo y Fix */
 .logo {
     width: 90px;
     margin: 1em;
+    content: url("../images/isotipo.svg");
+    transform: scale(.5);
 }
 
 .options {
@@ -88,17 +93,29 @@ p{
 
 }
 
+/*Margenes y padding de social links*/
+ul.social-links{
+    margin-top: -10px;
+    margin-bottom: -40px;
+    padding: 0em;
+}
+
 .social-links li a{
     color: #D7DEE6;
     text-decoration: none;
     font-size: 2.5em;
 }
 
+/*Tamaño Social links*/
+ul.social-links li a i{
+    font-size: 2em;
+    padding: 0 20px;
+    color:white;
+}
 
 .green-area {
     background-color: #0AC693; 
 }
-
 
 .post {
     padding: 1em;
@@ -260,6 +277,11 @@ footer .social-links {
     
 }
 
+/*Hover rojo en Menu */
+.menu :hover{
+    color:red;
+}
+
 /* Pesonalizando estilo para tablets*/
 @media only screen and (min-width: 768px) {
   
@@ -324,23 +346,7 @@ footer .social-links {
         max-width: 1440px;
     }
 }
-/*imagen de logo-isotipo.svg */
-.logo {
-    content: url("../images/isotipo.svg");
-    transform: scale(.5);
-}
 
-/*Hover rojo en Menu */
-.menu :hover{
-    color:red;
-}
-
-/*Tamaño Social links*/
-ul.social-links li a i{
-    font-size: 2em;
-    padding: 0 20px;
-    color:white;
-}
 
 /*Tamaño y color de flecha*/
 i{
@@ -349,17 +355,11 @@ i{
     padding: 0 0px;
     margin-bottom: 60px;
 }
-/*Margenes y padding de social links*/
-ul.social-links{
-    margin-top: -10px;
-    margin-bottom: -40px;
-    padding: 0em;
-}
+
 /*Padding de parrafo de .big-hero*/
 .big-hero p {
     padding:0px;
 }
-
 
 
 /*Posicion  de acerca de */
@@ -405,5 +405,11 @@ ul.social-links{
     padding: 0px 1em;
     box-sizing: border-box;
     vertical-align: top;
+}
+
+
+.green-area article{
+    width: 300px;
+    height: 340px;
 }
 
