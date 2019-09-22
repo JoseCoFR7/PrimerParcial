@@ -31,7 +31,7 @@ body {
 /*Quita visualizacion del elemente y agrega margen*/
 .hide-mobile {
     display: none;
-    margin: 2em;
+    margin-bottom: 2em;
     color:#0AC693;
 }
 /*Tama;o, y paddibg del parrafo */
@@ -121,10 +121,15 @@ p{
     margin-left: 20px;
 }
 
+ul.social-links{
+    margin-top: -50px;
+}
+
 /*Color de fondo  publicaciones*/
 .green-area {
     background-color: #0AC693; 
 }
+
 /*propiedades de post*/
 .post {
     padding: 1em;
@@ -232,6 +237,7 @@ p{
     font-size: 1em;
     width: 100%;
 }
+
 
 /* Decorando placeholder */
 
@@ -421,7 +427,11 @@ footer .social-links {
         grid-row: 1 / 2;
         align-content: center;
     
+        
     }
-    
+    .green-area article{
+        width: 300px;
+        height:340px;
+    }
 
 }
