@@ -348,7 +348,7 @@ footer .social-links {
 
 @media only screen and (min-width: 1024px) {
 
-       /*TODO: FALTA CSS */
+       /*Estilo para tablet y computadoras */
 
 
 
@@ -356,7 +356,7 @@ footer .social-links {
 
 @media only screen and (min-width: 1440px) {
 
-    /*TODO: FALTA CSS */
+    /*Estilo para computadoras */
     .container {
         width: 80%;
         margin: 0 auto;
@@ -366,18 +366,12 @@ footer .social-links {
 
 
 /*Tamaño y color de flecha*/
-i{
-    font-size: 4em;
-    color:#0AC693;
-    padding: 0 0px;
-    margin-bottom: 60px;
-}
+
 
 /*Padding de parrafo de .big-hero*/
 .big-hero p {
     padding:0px;
 }
-
 
 /*Posicion  de acerca de */
 .container{
