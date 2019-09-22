@@ -55,6 +55,11 @@ p{
 .fas.fa-bars{
     margin-left: 0.4em;
 }
+/*margen y tama;o de barra*/
+.fa-bars{
+    margin-left: 50em;
+    font-size: 32px;
+}
 /*Parte visual y propiedades*/
 .options {
     color: inherit;
@@ -107,7 +112,7 @@ p{
     margin-bottom: 1.5em;
 
 }
-
+/*Propiedades de social links*/
 .social-links li a{
     color: #D7DEE6;
     text-decoration: none;
@@ -116,10 +121,11 @@ p{
     margin-left: 20px;
 }
 
+/*Color de fondo  publicaciones*/
 .green-area {
     background-color: #0AC693; 
 }
-
+/*propiedades de post*/
 .post {
     padding: 1em;
     margin-bottom: -2px;
@@ -149,13 +155,13 @@ p{
     text-align: left;
     padding-bottom: 2em;
 }
-
+/*Tama;o de imagenes de publicaciones*/
 .post article img{
     height: 150px;
     width: 100%;
     object-fit: cover;
 }
-
+/*propiedades del articulo*/
 .post article h3 {
     color: #0D5061;
     margin-top: 2em;
@@ -165,7 +171,7 @@ p{
     overflow: hidden;
     text-overflow: ellipsis;
 }
-
+/*propiedades de los parrafos de los articulos*/
 .post article p {
     color:#112935;
     font-size: 0.75em;
@@ -207,6 +213,7 @@ p{
     flex-direction: column;
     text-align: left;
     padding: 0px 1em;
+    margin-bottom: 35px;
 }
 
 .contact * + * {
