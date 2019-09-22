@@ -47,6 +47,14 @@ p{
     content: url("../images/isotipo.svg");
     transform: scale(.5);
 }
+/*Tama;o de flecha*/
+.fas{
+    font-size: 3em;
+}
+/*Ajuste de menu*/
+.fas.fa-bars{
+    margin-left: 0.4em;
+}
 /*Parte visual y propiedades*/
 .options {
     color: inherit;
@@ -63,6 +71,7 @@ p{
     margin-top: -0.8em;
 
 }
+/*Propiedades de Options*/
 .options i:last-child {
     font-size: 3rem;
     display:flex;
@@ -81,11 +90,10 @@ p{
     letter-spacing: 0.002em;
     margin-top: 1em ;
 }
-/*color y tama;o de fuene big-hero p*/
+/*color y tama;o de fuente big-hero p*/
 .big-hero p {
     font-size: 0.7em;;
-    color: #D7DEE6;
-    
+    color: #D7DEE6;    
 }
 
 /* Social links Propiedades*/
@@ -100,28 +108,14 @@ p{
 
 }
 
-/*Margenes y padding de social links*//*
-ul.social-links{
-    margin-top: -10px;
-    margin-bottom: -40px;
-    padding: 0em;
-}*/
-
 .social-links li a{
     color: #D7DEE6;
     text-decoration: none;
-    font-size: 3em;
+    font-size: 6em;
     margin: 0em, 0.5em;
     margin-left: 20px;
 }
-/*
-/*Tamaño Social links*//*
-ul.social-links li a i{
-    font-size: 2em;
-    padding: 0 20px;
-    color:white;
-}
-*/
+
 .green-area {
     background-color: #0AC693; 
 }
