@@ -28,18 +28,21 @@ body {
 .src-only {
     display: none;
 }
+
 /*Quita visualizacion del elemente y agrega margen*/
 .hide-mobile {
     display: none;
     margin-bottom: 2em;
     color:#0AC693;
 }
+
 /*Tama;o, y padding del parrafo */
 p{
     font-size: 0.75em;
     padding: 1rem;
     line-height: 25px;
 }
+
 /*Dimensiones logo y Fix */
 .logo {
     width: 90px;
@@ -47,6 +50,12 @@ p{
     content: url("../images/isotipo.svg");
     transform: scale(.5);
 }
+
+/*Hover rojo en Menu */
+.menu :hover{
+    color:red;
+}
+
 /*Tama;o de flecha*/
 .fas{
     font-size: 3em;
@@ -55,11 +64,13 @@ p{
 .fas.fa-bars{
     margin-left: 0.4em;
 }
+
 /*margen y tama;o de barra*/
 .fa-bars{
     margin-left: 50em;
     font-size: 32px;
 }
+
 /*Parte visual y propiedades*/
 .options {
     color: inherit;
@@ -74,8 +85,8 @@ p{
     align-items: flex-start;
     flex-direction: row-reverse;
     margin-top: -0.8em;
-
 }
+
 /*Propiedades de Options*/
 .options i:last-child {
     font-size: 3rem;
@@ -88,6 +99,7 @@ p{
 .big-hero img {
     width: 150px;
 }
+
 /*Propiedades de h2*/
 .big-hero h2 {
     font-size: 1.875em;
@@ -95,6 +107,7 @@ p{
     letter-spacing: 0.002em;
     margin-top: 1em ;
 }
+
 /*color y tama;o de fuente big-hero p*/
 .big-hero p {
     font-size: 0.7em;;
@@ -112,6 +125,7 @@ p{
     margin-bottom: 1.5em;
 
 }
+
 /*Propiedades de social links*/
 .social-links li a{
     color: #D7DEE6;
@@ -121,6 +135,7 @@ p{
     margin-left: 20px;
 }
 
+/*Margen de social links*/
 ul.social-links{
     margin-top: -50px;
 }
@@ -130,7 +145,7 @@ ul.social-links{
     background-color: #0AC693; 
 }
 
-/*propiedades de post*/
+/*propiedades de posts*/
 .post {
     padding: 1em;
     margin-bottom: -2px;
@@ -160,12 +175,14 @@ ul.social-links{
     text-align: left;
     padding-bottom: 2em;
 }
+
 /*Tama;o de imagenes de publicaciones*/
 .post article img{
     height: 150px;
     width: 100%;
     object-fit: cover;
 }
+
 /*propiedades del articulo*/
 .post article h3 {
     color: #0D5061;
@@ -176,6 +193,7 @@ ul.social-links{
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
 /*propiedades de los parrafos de los articulos*/
 .post article p {
     color:#112935;
@@ -186,6 +204,7 @@ ul.social-links{
 
 /* About */
 
+/*Propiedades de about*/
 .about{
     margin-top: 2em;
 }
@@ -201,10 +220,12 @@ ul.social-links{
     align-content: center;
 }
 
+/*Ancho de imagen de bio-info*/
 .bio-info img{
    width: 200px;
 }
 
+/*Propiedades de parrafo de bio-info*/
 .bio-info p{
     font-size: 16px;
     padding: 2em;
@@ -213,6 +234,7 @@ ul.social-links{
     letter-spacing: 2px;
 }
 
+/*Propiedades de Contact*/
 .contact {
     display: flex;
     flex-direction: column;
@@ -225,11 +247,13 @@ ul.social-links{
     margin-top: 1.5em;
 }
 
+/*Flex de contact-form*/
 .contact-form {
     display: flex;
     flex-direction: column;
 }
 
+/*Tama;o, padding, border y tama;o de fuente*/
 .contact-form input, .contact-form textarea{
     padding: 1rem 2rem;
     border: none;
@@ -238,9 +262,9 @@ ul.social-links{
     width: 100%;
 }
 
-
 /* Decorando placeholder */
 
+/*Propiedades para adaptar a los diferentes navegadores*/
 ::-webkit-input-placeholder { 
     color: #D7DEE6; 
 } 
@@ -301,11 +325,6 @@ footer .social-links {
     width:35%;
 }
 
-/*Hover rojo en Menu */
-.menu :hover{
-    color:red;
-}
-
 /* Pesonalizando estilo para tablets*/
 @media only screen and (min-width: 768px) {
   
@@ -353,33 +372,33 @@ footer .social-links {
 
        /*Estilo para tablet y computadoras */
 
-       .container{
+    .container{
         width: auto;
         height: auto;
         align-items: center;
     }
-        .about .container{
+    .about .container{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 100px 1 fr;
         margin-top: -3m;
         margin-bottom: 3m;
     }
-        .bio-info{
+    .bio-info{
         display: grid;
         grid-column: 1 / 2;
         grid-row: 2 / 3;
         align-content: center;
         justify-items: center;
     }
-        .contact{
+    .contact{
         display: grid;
         grid-column: 2 / 3;
         grid-row: 2 / 3;
         align-content: center;
     
     }
-        .about h2 {
+    .about h2 {
         text-transform: uppercase;
         font-weight: 700;
         font-size: 1.125em;
