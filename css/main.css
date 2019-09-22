@@ -398,3 +398,12 @@ ul.social-links{
     box-sizing: border-box;
 }
 
+/*Posicion formulario*/
+.contact {
+    display: inline-block;
+    width: 45%;
+    padding: 0px 1em;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
