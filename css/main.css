@@ -34,9 +34,9 @@ body {
     margin-bottom: 2em;
     color:#0AC693;
 }
-/*Tama;o, y paddibg del parrafo */
+/*Tama;o, y padding del parrafo */
 p{
-    font-size: 0.75px;
+    font-size: 0.75em;
     padding: 1rem;
     line-height: 25px;
 }
