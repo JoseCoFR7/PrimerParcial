@@ -351,7 +351,43 @@ footer .social-links {
        /*Estilo para tablet y computadoras */
 
 
-
+       .container{
+        width: auto;
+        height: auto;
+        align-items: center;
+    }
+        .about .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 1 fr;
+        margin-top: -3m;
+        margin-bottom: 3m;
+    }
+        .bio-info{
+        display: grid;
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        align-content: center;
+        justify-items: center;
+    }
+        .contact{
+        display: grid;
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        align-content: center;
+    
+    }
+        .about h2 {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.125em;
+        margin: 2em;
+        display: grid; 
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+        align-content: center;
+    
+    }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -363,58 +399,3 @@ footer .social-links {
         max-width: 1440px;
     }
 }
-
-
-/*Tamaño y color de flecha*/
-
-
-/*Padding de parrafo de .big-hero*/
-.big-hero p {
-    padding:0px;
-}
-
-/*Posicion  de acerca de */
-.container{
-    margin-top:2em;
-    padding-bottom: 4em;
-}
-
-.container h2{
-    display:block;
-}
-
-.bio-info{
-    display: inline-flex;
-    flex-direction: column;
-    width: 45%;
-}
-
-.about h2{
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 1.125em;
-    margin: 2em;
-}
-.bio-info img{
-    width: 200px;
-    margin: auto;
-}
-.bio-info p{
-    font-size: 16px;
-    padding: 20px;
-    text-align: left;
-    line-height: 25px;
-    letter-spacing: 2px;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-/*Posicion formulario*/
-.contact {
-    display: inline-block;
-    width: 45%;
-    padding: 0px 1em;
-    box-sizing: border-box;
-    vertical-align: top;
-}
-
