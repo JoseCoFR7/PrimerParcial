@@ -32,7 +32,7 @@ body {
 .hide-mobile {
     display: none;
     margin: 2em;
-
+    color:#0AC693;
 }
 /*Tama;o, y paddibg del parrafo */
 p{
@@ -340,10 +340,6 @@ footer .social-links {
         margin-top: 1em;
     }
 
-
-
-
-    /*TODO: FALTA CSS */
 } 
 
 @media only screen and (min-width: 1024px) {
